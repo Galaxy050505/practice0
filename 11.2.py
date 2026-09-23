@@ -1,0 +1,35 @@
+#5/26
+#創建集合
+s1={10,20,30,40,50}
+print(s1)
+s2={10,20,30,10,30,40,50}
+print(s2)
+s3=set('abcdef')
+print(s3)
+#集合沒有順序
+#創建空集合
+s4=set()
+print(s4)
+print(type(s4))
+s5={}
+print(type(s5))
+#新增數據:add、update
+sA={10,20}
+sA.add(10)
+sA.add(100)
+print(sA)
+#集合具有去重複功能
+#sA.add([10,20,30])，不可
+sA.update([10,30,50,70,90])
+print(sA)
+sA.update([230])
+print(sA)
+#刪除數據:remove、discard、pop
+#remove:刪除指定數據，不存在則報錯
+#discard:刪除指定數據，不存在不會報錯
+#pop:隨機刪除一個數據
+del_num=sA.pop()
+print(del_num)
+print(sA)
+print(10 in sA)
+print(10 not in sA)

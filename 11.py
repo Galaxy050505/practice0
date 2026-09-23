@@ -1,0 +1,23 @@
+#5/25
+dictA={'name':'Elieen','age':25,'gender':'male'}
+print(dictA)
+print(type(dictA))
+dictB={}
+print(dictB)
+print(type(dictB))
+dictC=dict()
+print(dictC)
+print(type(dictC))
+dictA['id']=120
+print(dictA)
+dictA['age']=30
+print(dictA)
+#del dictA['name']
+#print(dictA)
+print(dictA['age'])
+print(dictA.get('names'))
+print(dictA.get('name'))
+print(dictA.get('names','TOM'))
+print(dictA.keys())
+print(dictA.values())
+print(dictA.items())
